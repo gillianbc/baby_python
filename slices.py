@@ -16,3 +16,8 @@ newfruits.append('lime')
 fruits.append('lemon')
 print(f'All items in the clone list: {newfruits[:]}')
 print(f'All items in the original list: {fruits[:]}')
+
+for fruit in fruits:
+    print(f'Fruit is {fruit}')
+for fruit in fruits[2:]:
+    print(f'Fruits in a slice of fruit is {fruit}')
