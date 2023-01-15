@@ -12,3 +12,8 @@ def get_formatted_name(first, last):
     fullname = f"{first} {last}"
     return fullname.title()
 
+def divide(x, y):
+    if y == 0:
+        raise ValueError('Cannot divide by zero')
+    return x / y
+
