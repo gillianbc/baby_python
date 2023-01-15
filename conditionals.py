@@ -21,3 +21,16 @@ i = 1
 while i < 4:
     print(i)
     i = i + 1
+
+# else if - note the else is not mandatory
+age = 30
+if age < 2:
+    print('baby')
+elif age < 5:
+    print('toddler')
+elif age < 12:
+    print('child')
+elif age < 18:
+    print('teen')
+else:
+    print('adult')
